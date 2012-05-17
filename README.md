@@ -12,13 +12,13 @@ cherokee config file to enable/disable a very specific rule under a
 specified vserver.
 
 ### Example Usage
-$ maintenance.py enable --vserver_nicl="My Example VServer"
+$ maintenance.py enable --vserver_nick="My Example VServer"
 
 ### Required Maintenance Rules
 
-The relevant vserver should have two maintenance rules.
-Rule 1) Handles the maintenance page.
-Rule 2) Directs all traffic to a maintenance page.
+The relevant vserver should have two maintenance rules.  
+Rule 1) Handles the maintenance page.  
+Rule 2) Directs all traffic to a maintenance page.  
 
 Rule 1) Can handle the maintenance page whatever way you like.
 
